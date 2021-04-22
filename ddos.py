@@ -267,7 +267,7 @@ def main():
 				except socket.gaierror:
 					print ("[\033[91mB0TN3T\033[00m] Host: {} Invalid.\n".format (host))
 					main()
-		elif sinput == ".synflood":
+		elif sinput == ".syn":
 			try:
 				sinput, host, port, timer, pack = sin.split(" ")
 				socket.gethostbyname(host)
