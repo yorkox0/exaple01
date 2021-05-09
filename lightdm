@@ -1,0 +1,10 @@
+sudo apt-get install liblightdm-gobject-1-dev gobject-introspection libgirepository1.0-dev pyqt5-dev-tools libcairo2-dev
+sudo -H pip3 install whither 
+sudo -H pip3 install pygobject
+git clone https://github.com/Antergos/web-greeter.git /tmp/greeter
+cd /tmp/greeter
+sudo make install
+
+sudo -H pip3 uninstall PyQt5 
+
+sudo -H pip3 install  PyQt5==5.10.0
